@@ -1,9 +1,4 @@
 /* Removes gloabl default decorations for commonly used html tags */
-
-/* html {
-  scroll-behavior: smooth;
-} */
-
 body {
   margin: 0px;
   padding: 0px;

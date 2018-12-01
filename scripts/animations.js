@@ -1,29 +1,3 @@
-//Minimize timeline and stick to top of page
-
-// function stickTimelineToTop() {
-//   var window_top = $(window).scrollTop();
-//   var top = $('.timelineSticky').offset().top;
-//   if (window_top > top) {
-//     $('.timelineContent').addClass('stick');
-//     $('.timelineSticky').height($('.timelineContent').outerHeight());
-//   } else {
-//     $('.timelineContent').removeClass('stick');
-//     $('.timelineSticky').height(0);
-//   }
-// }
-//
-// $(function() {
-//   $(window).scroll(stickTimelineToTop);
-//   stickTimelineToTop();
-// });
-
-// function goToPageByScroll(id) {
-//   $('html,body').animate({
-//       scrollTop: $("#" + id).offset().top
-//     },
-//     'fast');
-// }
-
 $(function() {
   console.log("dom finished loading")
 

@@ -37,12 +37,6 @@ function buildTimelineContent() {
 
 //For all subpages below main page
 function buildSubpageContent() {
-  // var companyIdentifiers = [];
-  // for (index in companyData) {
-  //   var company = companyData[index]
-  //   companyIdentifiers.push(company.identifier)
-  // }
-
   companyData.forEach((place) => {
     console.log("Sub page loaded");
     let company = new Company(place.identifier, place.title, place.date, place.logo, place.founderImg, place.founder, place.description)
