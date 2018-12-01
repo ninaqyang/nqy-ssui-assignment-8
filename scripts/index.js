@@ -55,15 +55,18 @@ function buildSubpageContent() {
     let logo = document.createElement("img")
     logo.classList.add("companyLogo")
     logo.src = "images/" + company.logo
+    logo.setAttribute("data-aos", "fade-right")
     subpageContainer.appendChild(logo)
 
     let founderImg = document.createElement("img")
     founderImg.classList.add("companyFounderImg")
     founderImg.src = "images/" + company.founderImg
+    founderImg.setAttribute("data-aos", "fade-right")
     subpageContainer.appendChild(founderImg)
 
     let opacityContainer = document.createElement("div")
     opacityContainer.classList.add("opacityContainer")
+    opacityContainer.setAttribute("data-aos", "fade-left")
     subpageContainer.appendChild(opacityContainer)
 
     let companyContent = document.createElement("div")

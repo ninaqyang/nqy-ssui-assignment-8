@@ -36,7 +36,7 @@ $(function() {
     $('html,body').animate({
         scrollTop: $("#" + pageIdentifier).offset().top
       },
-      'slow');
+      2000);
   });
 
   $(".downArrow").on('click', function() {
